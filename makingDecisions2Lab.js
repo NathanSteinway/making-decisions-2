@@ -8,7 +8,6 @@ var arr = [10,20,30,40,50,60]
 
 let firstItem = arr[0]
 
-
 ////////// PROBLEM 2 //////////
 /*
   Remove the last item from the 'arr' array and store it in a variable named 'lastItemRemoved'. Console.log the array to verify you no longer have the last item.
@@ -89,7 +88,6 @@ var myFavoriteNumbers = [4,8,12,16,20,24,15,65,12];
 someNum = myFavoriteNumbers[4]
 console.log(someNum)
 
-
 ////////// PROBLEM 7 //////////
 
 // Subscripting (accessing values using their index) an array can fail. What happens if you subscript to the 7th element, but there are not 7 elements in the array? Let's write some code to check for that. 
@@ -101,9 +99,6 @@ if (myFavoriteNumbers.length < 7) {
   someNum = myFavoriteNumbers[6]
   console.log(someNum)
 }
-
-
-
 
 ////////// PROBLEM 8 //////////
 
@@ -119,7 +114,6 @@ for (let i = 0; i < listOfNumbers.length; i++){
   }
 }
 
-
 ////////// PROBLEM 9 //////////
 // Do not edit the code below.
 var letters = ['A', 'B', 'C', 'D', 'E'];
@@ -132,7 +126,6 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 for (let i = letters.length - 1; i >= 0; i--){
   console.log(letters[i])
 }
-
 
 ////////// Advanced Problems //////////
 
@@ -172,8 +165,6 @@ switch (letterGrade) {
   default:
     console.log('Not an eligible grade')
 }
-
-
 
 ////////// PROBLEM 11 //////////
 /* The famous FizzBuzz, Devmountain style!
